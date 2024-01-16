@@ -16,6 +16,7 @@ namespace ClassReview
             _title = string.Empty;
             _studio = string.Empty;
             _budget = 0;
+            _crewCount = 0;
             Genre = Genre.Unknown;
             Rating = Rating.Unknown;
         }

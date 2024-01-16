@@ -13,6 +13,8 @@ namespace MovieConsole
                 CrewCount = 1200
             };
             Console.WriteLine(movie1);
+            
         }
+        
     }
 }
