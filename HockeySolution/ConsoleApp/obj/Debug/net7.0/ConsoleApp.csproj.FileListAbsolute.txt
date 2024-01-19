@@ -18,3 +18,23 @@ C:\Users\sbell\Downloads\HockeySolution\HockeySolution\ConsoleApp\obj\Debug\net7
 C:\Users\sbell\Downloads\HockeySolution\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.pdb
 C:\Users\sbell\Downloads\HockeySolution\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\sbell\Downloads\HockeySolution\HockeySolution\ConsoleApp\obj\Debug\net7.0\ref\ConsoleApp.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\bin\Debug\net7.0\ConsoleApp.exe
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\bin\Debug\net7.0\ConsoleApp.deps.json
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\bin\Debug\net7.0\ConsoleApp.runtimeconfig.json
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\bin\Debug\net7.0\ConsoleApp.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\bin\Debug\net7.0\ConsoleApp.pdb
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\bin\Debug\net7.0\HockeyData.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\bin\Debug\net7.0\Utilities.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\bin\Debug\net7.0\HockeyData.pdb
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\bin\Debug\net7.0\Utilities.pdb
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.CopyComplete
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\refint\ConsoleApp.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.pdb
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ref\ConsoleApp.dll

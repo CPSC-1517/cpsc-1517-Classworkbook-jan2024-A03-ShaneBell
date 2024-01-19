@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sbell\\Downloads\\HockeySolution\\HockeySolution\\Utilities\\Utilities.csproj": {}
+    "C:\\Users\\sbell\\Desktop\\Winter 2024\\GitHub\\A03\\HockeySolution\\Utilities\\Utilities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sbell\\Downloads\\HockeySolution\\HockeySolution\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\sbell\\Desktop\\Winter 2024\\GitHub\\A03\\HockeySolution\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sbell\\Downloads\\HockeySolution\\HockeySolution\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\sbell\\Desktop\\Winter 2024\\GitHub\\A03\\HockeySolution\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\sbell\\Downloads\\HockeySolution\\HockeySolution\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\sbell\\Desktop\\Winter 2024\\GitHub\\A03\\HockeySolution\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\sbell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sbell\\Downloads\\HockeySolution\\HockeySolution\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\sbell\\Desktop\\Winter 2024\\GitHub\\A03\\HockeySolution\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
