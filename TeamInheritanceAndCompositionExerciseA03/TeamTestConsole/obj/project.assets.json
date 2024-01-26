@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "TeamInheritanceAndCompositionExerciseA03/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TeamInheritanceAndCompositionExerciseA03.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeamInheritanceAndCompositionExerciseA03.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TeamInheritanceAndCompositionExerciseA03/1.0.0": {
+      "type": "project",
+      "path": "../TeamInheritanceAndCompositionExerciseA03/TeamInheritanceAndCompositionExerciseA03.csproj",
+      "msbuildProject": "../TeamInheritanceAndCompositionExerciseA03/TeamInheritanceAndCompositionExerciseA03.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "TeamInheritanceAndCompositionExerciseA03 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sbell\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sbell\\Desktop\\Winter 2024\\CPSC1517\\TeamInheritanceAndCompositionExerciseA03\\TeamTestConsole\\TeamTestConsole.csproj",
+      "projectName": "TeamTestConsole",
+      "projectPath": "C:\\Users\\sbell\\Desktop\\Winter 2024\\CPSC1517\\TeamInheritanceAndCompositionExerciseA03\\TeamTestConsole\\TeamTestConsole.csproj",
+      "packagesPath": "C:\\Users\\sbell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sbell\\Desktop\\Winter 2024\\CPSC1517\\TeamInheritanceAndCompositionExerciseA03\\TeamTestConsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\sbell\\Desktop\\Winter 2024\\CPSC1517\\TeamInheritanceAndCompositionExerciseA03\\TeamInheritanceAndCompositionExerciseA03\\TeamInheritanceAndCompositionExerciseA03.csproj": {
+              "projectPath": "C:\\Users\\sbell\\Desktop\\Winter 2024\\CPSC1517\\TeamInheritanceAndCompositionExerciseA03\\TeamInheritanceAndCompositionExerciseA03\\TeamInheritanceAndCompositionExerciseA03.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
