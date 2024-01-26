@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "InheritanceAndCompositionA03/1.0.0": {
+        "runtime": {
+          "InheritanceAndCompositionA03.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InheritanceAndCompositionA03/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

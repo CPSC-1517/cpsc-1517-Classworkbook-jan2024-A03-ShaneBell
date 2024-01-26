@@ -1,0 +1,11 @@
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\bin\Debug\net8.0\InheritanceAndCompositionA03.deps.json
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\bin\Debug\net8.0\InheritanceAndCompositionA03.dll
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\bin\Debug\net8.0\InheritanceAndCompositionA03.pdb
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\obj\Debug\net8.0\InheritanceAndCompositionA03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\obj\Debug\net8.0\InheritanceAndCompositionA03.AssemblyInfoInputs.cache
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\obj\Debug\net8.0\InheritanceAndCompositionA03.AssemblyInfo.cs
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\obj\Debug\net8.0\InheritanceAndCompositionA03.csproj.CoreCompileInputs.cache
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\obj\Debug\net8.0\InheritanceAndCompositionA03.dll
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\obj\Debug\net8.0\refint\InheritanceAndCompositionA03.dll
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\obj\Debug\net8.0\InheritanceAndCompositionA03.pdb
+C:\Users\sbell\Desktop\Winter 2024\CPSC1517\InheritanceAndCompositionA03\InheritanceAndCompositionA03\obj\Debug\net8.0\ref\InheritanceAndCompositionA03.dll
