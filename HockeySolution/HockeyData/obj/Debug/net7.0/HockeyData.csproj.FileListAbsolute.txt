@@ -28,3 +28,18 @@ C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\HockeyData\obj\Debu
 C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\HockeyData\obj\Debug\net7.0\refint\HockeyData.dll
 C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.pdb
 C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\HockeyData\obj\Debug\net7.0\ref\HockeyData.dll
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\bin\Debug\net7.0\HockeyData.deps.json
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\bin\Debug\net7.0\HockeyData.dll
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\bin\Debug\net7.0\HockeyData.pdb
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\bin\Debug\net7.0\Utilities.dll
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\bin\Debug\net7.0\Utilities.pdb
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.csproj.AssemblyReference.cache
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.AssemblyInfoInputs.cache
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.AssemblyInfo.cs
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.csproj.CoreCompileInputs.cache
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.csproj.CopyComplete
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.dll
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\refint\HockeyData.dll
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.pdb
+C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\ref\HockeyData.dll

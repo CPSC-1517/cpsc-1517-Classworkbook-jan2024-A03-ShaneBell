@@ -1,4 +1,6 @@
-﻿using ValidationUtilities;
+﻿using HockeyData;
+using System.Net.Http.Headers;
+using ValidationUtilities;
 
 namespace Hockey.Data
 {
@@ -23,6 +25,9 @@ namespace Hockey.Data
         //idea is to give public access to fields
         //must have a get
         //could have a private set which can only be called from within the class
+
+        //A property to hold a list of Teams for the player
+        public List<Team> teams { get; set; } = new();
         public string BirthPlace
         {
             get
@@ -84,7 +89,7 @@ namespace Hockey.Data
                 {
                     throw new Exception("Last name cannot be null.");
                 }
-                _lastName = value;  
+                _lastName = value;
             }
         }
 
@@ -116,7 +121,7 @@ namespace Hockey.Data
                 {
                     throw new Exception("Weight must be greater than 0.");
                 }
-                _weightInPounds = value;   
+                _weightInPounds = value;
             }
         }
 
@@ -139,18 +144,61 @@ namespace Hockey.Data
             Shot = Shot.Right;
         }
 
-        public HockeyPlayer(string birthPlace, DateOnly dateOfBirth, string firstName,string lastName, int heightInInches, int weightInPounds,Position position, Shot shot)
+        public HockeyPlayer(string birthPlace, DateOnly dateOfBirth, string firstName, string lastName, int heightInInches, int weightInPounds, Position position, Shot shot)
         {
             BirthPlace = birthPlace;
-            DateOfBirth=dateOfBirth;
-            FirstName=firstName;
-            LastName=lastName;
+            DateOfBirth = dateOfBirth;
+            FirstName = firstName;
+            LastName = lastName;
             HeightInInches = heightInInches;
-            WeightInPounds=weightInPounds;
+            WeightInPounds = weightInPounds;
             Position = position;
             Shot = shot;
         }
+        //Do not allow the addition of a team if it is already in the list.(team name)
+        //Throw an exception
 
-        
+        public void AddTeam(string teamName, string city, Role role)
+        {
+            //Loop through the list looking for an object with the same Teamname as being added
+            bool found = false;
+            foreach (Team aTeam in teams)            
+            {
+                if (aTeam.TeamName == teamName)
+                {                    
+                    found = true;
+                }
+            }
+            if (found)
+            {
+                throw new Exception($"The {teamName} is alreday listed for that player!");
+            }
+            teams.Add(new Team(teamName, city, role));
+        }
+
+        //Remove a team from the list. Search by the name
+        //If the teams was not in the list of teams for that player, throw an exception
+        public void RemoveTeam(string teamName) 
+        {
+            bool found = false;
+            Team foundTeam = null;
+
+            foreach(Team aTeam in teams)
+            {
+                if(aTeam.TeamName == teamName) 
+                {
+                found= true;
+                foundTeam = aTeam;
+                }
+            }
+            if (!found)
+            {
+                throw new Exception($"The player has not played for the team {teamName}");
+            }
+            teams.Remove(foundTeam);                    
+        }
+
+
+
     }
 }

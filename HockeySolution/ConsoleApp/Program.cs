@@ -1,4 +1,5 @@
 ﻿using Hockey.Data;
+using HockeyData;
 
 namespace ConsoleApp
 {
@@ -21,6 +22,24 @@ namespace ConsoleApp
             Console.WriteLine($"The players name is {player2.FirstName} {player2.LastName} and they were born on {player2.DateOfBirth}");
             Console.WriteLine($"The players name is {player3.FirstName} {player3.LastName} and they were born on {player3.DateOfBirth}");
             Console.WriteLine($"The players name is {player2.FirstName} {player2.LastName} and they were born on {player2.DateOfBirth}and are in the {player3.Position} position");
+
+            player3.AddTeam("Ooks", "Edmonton", Role.Player);
+            player3.AddTeam("Oilers", "Edmonton", Role.Player);
+            
+            foreach (Team aTeam in player3.teams)
+            {
+                Console.WriteLine(aTeam.ToString());
+            }
+
+            player3.RemoveTeam("Oilers");
+
+            foreach (Team aTeam in player3.teams)
+            {
+                Console.WriteLine(aTeam.ToString());
+            }
+
+
+
         }
     }
 }
