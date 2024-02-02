@@ -31,3 +31,4 @@ C:\Users\sbell\Documents\A03Workbook\HockeySolution\Utilities\obj\Debug\net7.0\U
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\Utilities\obj\Debug\net7.0\refint\Utilities.dll
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\Utilities\obj\Debug\net7.0\Utilities.pdb
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\Utilities\obj\Debug\net7.0\ref\Utilities.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\Utilities\obj\Debug\net7.0\Utilities.sourcelink.json

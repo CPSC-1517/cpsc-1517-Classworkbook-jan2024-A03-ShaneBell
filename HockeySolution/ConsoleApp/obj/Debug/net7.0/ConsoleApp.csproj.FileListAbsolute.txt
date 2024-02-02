@@ -58,3 +58,4 @@ C:\Users\sbell\Documents\A03Workbook\HockeySolution\ConsoleApp\obj\Debug\net7.0\
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.pdb
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\ConsoleApp\obj\Debug\net7.0\ref\ConsoleApp.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\ConsoleApp\obj\Debug\net7.0\ConsoleApp.sourcelink.json

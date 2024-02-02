@@ -210,3 +210,4 @@ C:\Users\sbell\Documents\A03Workbook\HockeySolution\UtilitesTestProject\obj\Debu
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\UtilitesTestProject\obj\Debug\net7.0\UtilitesTestProject.pdb
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\UtilitesTestProject\obj\Debug\net7.0\UtilitesTestProject.genruntimeconfig.cache
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\UtilitesTestProject\obj\Debug\net7.0\ref\UtilitesTestProject.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\UtilitesTestProject\obj\Debug\net7.0\UtilitesTestProject.sourcelink.json

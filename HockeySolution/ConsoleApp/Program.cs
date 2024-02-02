@@ -1,5 +1,5 @@
 ﻿using Hockey.Data;
-using HockeyData;
+
 
 namespace ConsoleApp
 {
@@ -16,7 +16,7 @@ namespace ConsoleApp
                 LastName = "McDavid"
             };
 
-            HockeyPlayer player3 = new HockeyPlayer("Edmonton", new DateOnly(1972, 1, 20), "Shane", "Bell", 70, 190, Position.Goalie, Shot.Right);
+            HockeyPlayer player3 = new HockeyPlayer("Edmonton", new DateOnly(1972, 1, 20), "Shane", "Bell", 70, 190, Position.Goalie, Shot.Right,1,null);
 
             Console.WriteLine($"The players name is {player1.FirstName} {player1.LastName} and they were born on {player1.DateOfBirth}");
             Console.WriteLine($"The players name is {player2.FirstName} {player2.LastName} and they were born on {player2.DateOfBirth}");
@@ -25,7 +25,7 @@ namespace ConsoleApp
 
             player3.AddTeam("Ooks", "Edmonton", Role.Player);
             player3.AddTeam("Oilers", "Edmonton", Role.Player);
-            
+
             foreach (Team aTeam in player3.teams)
             {
                 Console.WriteLine(aTeam.ToString());
@@ -37,6 +37,23 @@ namespace ConsoleApp
             {
                 Console.WriteLine(aTeam.ToString());
             }
+
+            string csvValues = "Oilers,Edmonton,Player";
+            //Team csvTeam;
+
+            //csvTeam= Team.Parse(csvValues);
+            //Console.WriteLine(csvTeam.ToString());
+
+            bool success;
+            Team goodTeam;
+
+            success = Team.TryParse(csvValues, out goodTeam);
+
+            Console.WriteLine(success);
+            Console.WriteLine(goodTeam.ToString());
+
+
+
 
 
 

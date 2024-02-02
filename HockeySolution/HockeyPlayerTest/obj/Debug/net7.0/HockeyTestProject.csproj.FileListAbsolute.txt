@@ -214,3 +214,4 @@ C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyPlayerTest\obj\Debug\n
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyPlayerTest\obj\Debug\net7.0\HockeyTestProject.pdb
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyPlayerTest\obj\Debug\net7.0\HockeyTestProject.genruntimeconfig.cache
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyPlayerTest\obj\Debug\net7.0\ref\HockeyTestProject.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\HockeyPlayerTest\obj\Debug\net7.0\HockeyTestProject.sourcelink.json

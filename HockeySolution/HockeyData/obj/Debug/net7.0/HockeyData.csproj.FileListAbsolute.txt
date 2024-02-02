@@ -43,3 +43,4 @@ C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\refint\HockeyData.dll
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.pdb
 C:\Users\sbell\Documents\A03Workbook\HockeySolution\HockeyData\obj\Debug\net7.0\ref\HockeyData.dll
+C:\Users\sbell\Desktop\Winter 2024\GitHub\A03\HockeySolution\HockeyData\obj\Debug\net7.0\HockeyData.sourcelink.json

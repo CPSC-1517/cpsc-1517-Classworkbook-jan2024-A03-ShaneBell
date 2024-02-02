@@ -1,11 +1,11 @@
-﻿using HockeyData;
+﻿ 
 using System.Net.Http.Headers;
 using ValidationUtilities;
 
 namespace Hockey.Data
 {
     /// <summary>
-    /// This class will hold hockey player data 
+    /// This class will hold hockey player data A03
     /// </summary>
     public class HockeyPlayer
     {
@@ -20,12 +20,38 @@ namespace Hockey.Data
         private string? _lastName;
         private int _heightInInches;
         private int _weightInPounds;
+        private int _jerseyNumber;
 
         //Properties
         //idea is to give public access to fields
         //must have a get
         //could have a private set which can only be called from within the class
 
+        //Create a readonly NumberOfTeams property
+        public int NumberOfTeams
+        {
+            get
+            {
+                return teams.Count;
+            }
+        }
+
+
+        public int JerseyNumber
+        {
+            get
+            {
+                return _jerseyNumber;
+            }
+            set
+            {
+                if (value < 1 || value > 98)
+                {
+                    throw new Exception("Jersey Number out of range!");
+                }
+                _jerseyNumber = value;
+            }
+        }
         //A property to hold a list of Teams for the player
         public List<Team> teams { get; set; } = new();
         public string BirthPlace
@@ -142,9 +168,10 @@ namespace Hockey.Data
             _heightInInches = 0;
             Position = Position.Center;
             Shot = Shot.Right;
+            JerseyNumber = 1;
         }
 
-        public HockeyPlayer(string birthPlace, DateOnly dateOfBirth, string firstName, string lastName, int heightInInches, int weightInPounds, Position position, Shot shot)
+        public HockeyPlayer(string birthPlace, DateOnly dateOfBirth, string firstName, string lastName, int heightInInches, int weightInPounds, Position position, Shot shot,int jerseyNumber,List<Team> teamList )
         {
             BirthPlace = birthPlace;
             DateOfBirth = dateOfBirth;
@@ -154,6 +181,11 @@ namespace Hockey.Data
             WeightInPounds = weightInPounds;
             Position = position;
             Shot = shot;
+            JerseyNumber = jerseyNumber;
+            if (teamList != null)
+            {
+                teams = teamList;
+            }
         }
         //Do not allow the addition of a team if it is already in the list.(team name)
         //Throw an exception

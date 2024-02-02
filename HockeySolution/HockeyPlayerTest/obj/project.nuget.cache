@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T+gsIAHpWniAIeubnUGz5ZxnpMwwqZE0RjKtBOWcqSqdG5Zudnoc10VcRdYN5XHrg4AWZUMcXSlAqTdF3F8Y4A==",
+  "dgSpecHash": "KSJwhcN6KOSytdUcVmtfNxwfpU/Wv9KixccHf0zxsRyBqiHCycEjmnNZ8Ay5SRdSS52n59uXiB5SEbQ/GpE1wA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sbell\\Documents\\A03Workbook\\HockeySolution\\HockeyPlayerTest\\HockeyTestProject.csproj",
+  "projectFilePath": "C:\\Users\\sbell\\Desktop\\Winter 2024\\GitHub\\A03\\HockeySolution\\HockeyPlayerTest\\HockeyTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sbell\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\sbell\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
