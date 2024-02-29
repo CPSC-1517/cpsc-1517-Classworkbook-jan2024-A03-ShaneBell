@@ -5,7 +5,12 @@
     <legend>Contact Information</legend>
     <div class="mb-3">
         <label class="form-label" for="name">Contact Name</label>
-        <input class="form-control" type="text" id="name" @bind="ContactName" required />
+        <input class="form-control @(Errorlist.ContainsKey("contact_name")?"is-invalid":"")" type="text" id="name" @bind="ContactName" required />
+        @if(Errorlist.ContainsKey("contact_name"))
+        {
+            <div class="alert alert-danger mt-3">@Errorlist["contact_name"]</div>
+        }
+
     </div>
     <div class="mb-3">
         <label class="form-label" for="phone">Phone Number</label>
@@ -13,7 +18,7 @@
     </div>
     <div class="mb-3">
         <label class="form-label" for="years">Number of Years as Customer</label>
-        <input class="form-control" type="number" id="years" min="0" step="1" @bind ="YearsAsCustomer"required />
+        <input class="form-control" type="number" id="years" min="0" step="1" @bind="YearsAsCustomer" required />
     </div>
     <div class="mb-3">
         <input class="form-check-input" type="checkbox" id="current_customer" @bind="IsCurrentCustomer" required />
@@ -24,15 +29,21 @@
 <fieldset class="form-group card mb-3 p-3">
     <legend>Service Information</legend>
     <div class="mb-3">
-        <input class="form-check-input" type="radio" id="internet" name="service_type" required />
+        <input class="form-check-input" type="radio" id="internet" name="service_type" required
+        @onclick="@(()=>ServiceType="INTERNET")"
+               checked="@(ServiceType=="INTERNET")" />
         <label class="form-check-label" for="internet">Internet Only</label>
     </div>
     <div class="mb-3">
-        <input class="form-check-input" type="radio" id="tv" name="service_type" required />
+        <input class="form-check-input" type="radio" id="tv" name="service_type" required
+        @onclick="@(()=>ServiceType="TV")"
+               checked="@(ServiceType=="TV")" />
         <label class="form-check-label" for="tv">TV Only</label>
     </div>
     <div class="mb-3">
-        <input class="form-check-input" type="radio" id="internet_tv" name="service_type" required />
+        <input class="form-check-input" type="radio" id="internet_tv" name="service_type" required
+        @onclick="@(()=>ServiceType="INTERNET_TV")"
+               checked="@(ServiceType=="INTERNET_TV")" />
         <label class="form-check-label" for="internet_tv">Internet and TV</label>
     </div>
 </fieldset>
@@ -60,7 +71,7 @@
 {
     <div alert alert-info>
         <p>Request successfully submitted</p>
-        <p>@Output</p>
+        <p>@((MarkupString)Output)</p>
     </div>
 }
 
@@ -69,18 +80,5 @@
 @* Only Display the ouput text if the button has been clicked *@
 
 @code {
-    public string? ContactName { get; set; }
-    public string? PhoneNumber { get; set; }
-    public int YearsAsCustomer { get; set; }
-    private bool IsCurrentCustomer { get; set; }
-    public string? Reason { get; set; }
-    public string? RequestDetails { get; set; }
-    public string? Output { get; set; }
-    public bool Success { get; set; } = false;
-
-    public void DisplayInfo()
-    {
-        Success = true;
-        Output = $"ContactName: {ContactName}, PhoneNumber: {PhoneNumber}, Years as Customer: {YearsAsCustomer}, Is Current Customer: {IsCurrentCustomer}, Reason: {Reason}, Request Details: {RequestDetails}";
-    }
+    
 }
