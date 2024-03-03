@@ -1,0 +1,76 @@
+﻿@page "/hockey_roster"
+<h3>HockeyRoster</h3>
+@using Hockey.Data
+
+@* Display the list in an HTML Table *@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>BirthPlace</th>
+            <th>Name</th>
+            <th>Height</th>
+            <th>Weight</th>
+            <th>DOB</th>
+            <th>Position</th>
+            <th>Shot</th>
+            <th>Jersey Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (HockeyPlayer aPlayer in Players)
+        {
+            <tr>
+                <td>@aPlayer.BirthPlace</td>
+                <td>@aPlayer.FirstName @aPlayer.LastName</td>
+                <td>@aPlayer.HeightInInches</td>
+                <td>@aPlayer.WeightInPounds</td>
+                <td>@aPlayer.DateOfBirth</td>
+                <td>@aPlayer.Position</td>
+                <td>@aPlayer.Shot</td>
+                <td>@aPlayer.JerseyNumber</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+@code {
+    private List<HockeyPlayer> Players{ get; set; }
+
+    //@ means literal string so that the \ is not interpreted as an escape sequence
+    string csvFilePath = @".\Data\players.csv";
+    string csvFilePathNoHeaderRecord = @".\Data\playersNoHeaderRecord.csv";
+
+    protected override Task OnInitializedAsync()
+    {
+        Players = new();
+        // using(StreamReader reader = new StreamReader(csvFilePath))
+        // {
+        //     //skip the header record
+        //     reader.ReadLine();
+        //     string? currentLine;
+
+        //     while((currentLine=reader.ReadLine())!=null)
+        //     {
+        //         //Create a hockeyPLayer from the csv line and add to the PLayers List
+        //         Players.Add(HockeyPlayer.Parse(currentLine));
+        //     }           
+        // }
+        //OR if no header record
+        string[] userdata;
+        userdata = System.IO.File.ReadAllLines(csvFilePathNoHeaderRecord);
+
+        foreach(string line in userdata)
+        {
+            Players.Add(HockeyPlayer.Parse(line));
+        }
+
+    return base.OnInitializedAsync();
+    }
+
+
+
+
+
+}

@@ -1,0 +1,43 @@
+﻿@page "/DisplayListOfObjects"
+@using BlazerSampleApp.Data
+<h3>DisplayListOfObjects</h3>
+
+<table class ="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Movie aMovie in Movies)
+        {
+            <tr>
+                <td>@aMovie.MovieName</td>
+                <td>@aMovie.Description</td>
+                <td>@aMovie.Rating</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Movie> Movies { get; set; }
+
+    //create and populate the movies property(list)
+    protected override Task OnInitializedAsync()
+    {
+        Movies = new();
+        Movies.Add(new Movie("Star Wars", "Good Show", '5'));
+        Movies.Add(new Movie("Star Wars2", "Gooder Show", '5'));
+        Movies.Add(new Movie("Star Wars3", "Goodest Show", '5'));
+        Movies.Add(new Movie("Star Wars4", "Most Goodest Show ever", '5'));
+        return base.OnInitializedAsync();
+    }
+
+
+
+
+
+}

@@ -1,0 +1,56 @@
+﻿@page "/random-number"
+
+<h3>MaxRandomNumber</h3>
+
+<p>This page will render a random number between 1 and a max number</p>
+@*If page has no feedback(first load of page/reset) don't show the div@*@
+@if (!string.IsNullOrWhiteSpace(FeedbackString))
+{
+    @*how to decided which div to show?*@
+    <div class ="alert @(IsError? "alert-danger": "alert-info")">
+        <p>@FeedbackString</p>
+    </div>
+}
+
+<fieldset>
+    <div class="mb-3">
+        <label for="max-number">Max Number Value</label>
+        <input type="text" id="max-number" name="maxNumber" @bind="MaxNumber"/>
+        @* @bind binds the data in the control to the property*@
+    </div>
+    <div class="mb-3">
+        <button class="btn btn-primary" onclick ="GenerateRandomNumber">Generate Number</button>
+    </div>
+    <div class="mb-3">
+        <button class="btn btn-secondary" @onclick="Reset">Reset</button>
+    </div>
+</fieldset>
+
+@code {
+    private int MaxNumber { get; set; }
+    private int RandomNumber{ get; set; }
+    private string? FeedbackString { get; set; }
+    private bool IsError{ get; set; }
+
+    private void GenerateRandomNumber()
+    {
+        if(MaxNumber>0)
+        {
+            RandomNumber = Random.Shared.Next(1, MaxNumber + 1);
+            FeedbackString = $"Your random number is: {RandomNumber}";
+            IsError = false;
+        }
+        else
+        {
+            FeedbackString = "Max Number must be greater than 0!";  
+            IsError = true;
+        }
+    }
+    private void Reset()
+    {
+        FeedbackString = null;
+        MaxNumber = 0;
+    }
+
+
+}
