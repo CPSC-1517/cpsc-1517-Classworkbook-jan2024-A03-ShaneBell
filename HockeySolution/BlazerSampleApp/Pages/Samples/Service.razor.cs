@@ -21,6 +21,8 @@ namespace BlazerSampleApp.Pages.Samples
         //Instantiate a new Dictionary
         public Dictionary<string, string> Errorlist { get; set; } = new();
 
+        string csvFilePath = @".\Data\Requests.csv";
+
         public void DisplayInfo()
         {
 
@@ -28,7 +30,7 @@ namespace BlazerSampleApp.Pages.Samples
 
             Errorlist.Clear();
             //Validate Contact Name
-            if(string.IsNullOrWhiteSpace(ContactName))
+            if (string.IsNullOrWhiteSpace(ContactName))
             {
                 Errorlist.Add("contact_name", "Contact name cannot be empty");
             }
@@ -51,7 +53,7 @@ namespace BlazerSampleApp.Pages.Samples
         public void AddToList()
         {
             Show = false;
-            ServiceRequests.Add(new ServiceRequest(ContactName,PhoneNumber, YearsAsCustomer,IsCurrentCustomer,ServiceType,Reason,RequestDetails));
+            ServiceRequests.Add(new ServiceRequest(ContactName, PhoneNumber, YearsAsCustomer, IsCurrentCustomer, ServiceType, Reason, RequestDetails));
             //Reset the fields
             ContactName = "";
             PhoneNumber = "";
@@ -65,7 +67,7 @@ namespace BlazerSampleApp.Pages.Samples
         {
             Errorlist.Clear();
             if (ServiceRequests.Count == 0)
-            {                
+            {
                 Errorlist.Add("empty_list", "There is no data in the list");
             }
             else
@@ -79,6 +81,31 @@ namespace BlazerSampleApp.Pages.Samples
             Show = false;
         }
 
+        public void SaveListToFile()
+        {
+            //Loop through the list
+            //Create a csv string of each object in the list
+            //Write the csv to the file
+
+            using (StreamWriter writer = new StreamWriter(csvFilePath, true))
+            {
+                foreach (ServiceRequest aRequest in ServiceRequests)
+                {
+                    writer.WriteLine(aRequest.ToString());
+                }
+            }
+        }
+        public void ReadFileToList()
+        {
+            string[] userData;
+            userData= System.IO.File.ReadAllLines(csvFilePath);
+            //Loop through the array
+            //For each csv string in each element, parse to a Service Request object and Add to the ServiceRequests List
+            foreach(string line in userData)
+            {
+                ServiceRequests.Add(ServiceRequest.Parse(line));
+            }
+        }
 
     }
 }
