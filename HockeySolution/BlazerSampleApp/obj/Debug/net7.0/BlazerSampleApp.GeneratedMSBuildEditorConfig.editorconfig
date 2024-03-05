@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazerSampleApp
+build_property.RootNamespace = BlazerSampleApp
+build_property.ProjectDir = C:\Users\sbell\Documents\GitA03USE\HockeySolution\BlazerSampleApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\sbell\Documents\GitA03USE\HockeySolution\BlazerSampleApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/Samples/Calculator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xDYWxjdWxhdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/Samples/DisplayListOfObjects.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xEaXNwbGF5TGlzdE9mT2JqZWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/Samples/HockeyRoster.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xIb2NrZXlSb3N0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/Samples/MaxRandomNumber.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xNYXhSYW5kb21OdW1iZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/Samples/Service.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xTZXJ2aWNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rd131b70nx
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-js5j1gvkia
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sbell/Documents/GitA03USE/HockeySolution/BlazerSampleApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

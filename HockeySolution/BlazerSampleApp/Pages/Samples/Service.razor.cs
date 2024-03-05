@@ -1,4 +1,6 @@
-﻿namespace BlazerSampleApp.Pages.Samples
+﻿using BlazerSampleApp.Data;
+
+namespace BlazerSampleApp.Pages.Samples
 {
     public partial class Service
     {
@@ -11,6 +13,10 @@
         public string? RequestDetails { get; set; }
         public string? Output { get; set; }
         public bool Success { get; set; } = false;
+
+        public bool Show { get; set; } = false;
+        //Create a property called ServiceRequests to hold a list of ServiceRequest objects
+        public List<ServiceRequest> ServiceRequests { get; set; } = new();
 
         //Instantiate a new Dictionary
         public Dictionary<string, string> Errorlist { get; set; } = new();
@@ -41,6 +47,36 @@
                 Reason = "";
                 RequestDetails = "";
             }
+        }
+        public void AddToList()
+        {
+            Show = false;
+            ServiceRequests.Add(new ServiceRequest(ContactName,PhoneNumber, YearsAsCustomer,IsCurrentCustomer,ServiceType,Reason,RequestDetails));
+            //Reset the fields
+            ContactName = "";
+            PhoneNumber = "";
+            YearsAsCustomer = 0;
+            IsCurrentCustomer = false;
+            ServiceType = null;
+            Reason = "";
+            RequestDetails = "";
+        }
+        public void DisplayList()
+        {
+            Errorlist.Clear();
+            if (ServiceRequests.Count == 0)
+            {                
+                Errorlist.Add("empty_list", "There is no data in the list");
+            }
+            else
+            {
+                Show = true;
+            }
+        }
+        public void ClearList()
+        {
+            ServiceRequests.Clear();
+            Show = false;
         }
 
 

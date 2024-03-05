@@ -20,5 +20,10 @@
             Reason = reason;
             RequestDetails = requestDetails;
         }
+
+        public override string ToString()
+        {
+            return $"{ContactName},{PhoneNumber},{YearsAsCustomer},{IsCurrentCustomer},{ServiceType},{Reason},{RequestDetails}";
+        }
     }
 }
