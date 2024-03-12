@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "61n3VQr7iBY9xjM/pzpwUdMFP5HOu7ACO/jhhd+qqjo=",
+  "Hash": "CZnsTOTpgHygrWnvcVqDpa1wb0e9CZy/9ngm9xwnDao=",
   "Source": "BlazerSampleApp",
   "BasePath": "_content/BlazerSampleApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazerSampleApp\\wwwroot",
       "Source": "BlazerSampleApp",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazerSampleApp.styles.css",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazerSampleApp.styles.css",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "BlazerSampleApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazerSampleApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazerSampleApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazerSampleApp.bundle.scp.css",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazerSampleApp.bundle.scp.css",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "BlazerSampleApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazerSampleApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazerSampleApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\css\\site.css",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\favicon.png",
       "SourceId": "BlazerSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitA03USE\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazerSampleApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\images\\yoda.jpg",
+      "SourceId": "BlazerSampleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sbell\\Documents\\GitHubAO3\\HockeySolution\\BlazerSampleApp\\wwwroot\\",
+      "BasePath": "_content/BlazerSampleApp",
+      "RelativePath": "images/yoda.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\yoda.jpg"
     }
   ]
 }
