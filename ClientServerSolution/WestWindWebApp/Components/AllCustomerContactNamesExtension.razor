@@ -1,4 +1,4 @@
-﻿@page "/CustomerContactList"
+﻿@page "/CustomerContactListExtension"
 
 @using WestWindSystem.BLL;
 @using WestWindSystem.DAL;
@@ -9,25 +9,30 @@
 @* List all customer contact names in an unorderd list *@
 
 <ul>
-    @foreach (Customer aCustomer in customerServices.GetAllCustomers())
+    @foreach (Customer aCustomer in customerList)
     {
         <li>@aCustomer.ContactName</li>
     }
 </ul>
 
 @code {
-    //List<Customer> customerList = new();
 
-    CustomerServices customerServices;
+    [Inject]
+    public CustomerServices customerServices{ get; set; }
+
+    public List<Customer> customerList = new();
+
+
 
     protected override Task OnInitializedAsync()
     {
-        WestWindContext context = new WestWindContext();
-        customerServices = new CustomerServices(context);
+        customerList = customerServices.GetAllCustomers();
 
-        //customerList = customerServices.GetAllCustomers();
+
         return base.OnInitializedAsync();
     }
+
+
 }
 
 @* using WestWindSystem.BLL;
