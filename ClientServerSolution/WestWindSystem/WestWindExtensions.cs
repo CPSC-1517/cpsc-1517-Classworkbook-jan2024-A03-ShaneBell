@@ -18,14 +18,21 @@ namespace WestWindSystem
         public static void WWExtensions(
             this IServiceCollection services, Action<DbContextOptionsBuilder> options)
         {
+            //Register the context
             services.AddDbContext<WestWindContext>(options);
 
+            //We need to AddTransient for each services class in the BLL
             services.AddTransient<CustomerServices>((ServiceProvider) =>
             {
                 var context = ServiceProvider.GetService<WestWindContext>();
                 return new CustomerServices(context);
-            });        
+            });
 
+            services.AddTransient<RegionServices>((ServiceProvider) =>
+            {
+                var context = ServiceProvider.GetService<WestWindContext>();
+                return new RegionServices(context);
+            });
 
         }
 
