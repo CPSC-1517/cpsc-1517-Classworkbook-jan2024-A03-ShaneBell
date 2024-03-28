@@ -34,6 +34,12 @@ namespace WestWindSystem
                 return new RegionServices(context);
             });
 
+            services.AddTransient<OrderServices>((ServiceProvider) =>
+            {
+                var context = ServiceProvider.GetService<WestWindContext>();
+                return new OrderServices(context);
+            });
+
         }
 
 

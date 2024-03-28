@@ -11,6 +11,18 @@
 </div>
 
 <div class="mb-3">
+    <select class="form-select" id="region" @bind="RegionID">
+        <option value="0">Please choose a region</option>
+        @foreach(Region aRegion in RegionServices.GetAllRegions())
+        {
+            <option value="@aRegion.RegionId">@aRegion.RegionDescription</option>
+        }
+    </select>
+</div>
+
+
+
+<div class="mb-3">
     <button class="btn btn-primary" @onclick="DisplayRegion">Display Region</button>
 </div>
 
