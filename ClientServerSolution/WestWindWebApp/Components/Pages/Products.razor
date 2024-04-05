@@ -17,11 +17,26 @@
 </div>
 
 
-
-
 <div class="mb-3">
     <button class="btn btn-primary" @onclick="DisplayProducts">Display Products</button>
 </div>
+
+@* Create a text box for a partial name search
+Create button to search by partial name
+Create a method to call the correct service and return the products
+*@
+
+
+<div class="mb-3">
+    <label class="form-label" for ="productname">Partial Product Name</label>
+    <input class ="form-control" type="text" id="productname" @bind="PartialSearch"/>
+</div>
+<div class="mb-3">
+    <button class="btn btn-primary" @onclick="DisplayProductsByName">Display Products</button>
+</div>
+
+
+
 
 @if (ProductsbyCategory != null)
 {
@@ -61,10 +76,16 @@
 
     public List<Product> ProductsbyCategory { get; set; }
 
+    public string PartialSearch { get; set; }
+
     public void DisplayProducts()
     {
         ProductsbyCategory = ProductServices.GetProductsByCategoryID(CategoryID);
     }
 
+    public void DisplayProductsByName()
+    {
+        ProductsbyCategory = ProductServices.GetProductsByPartialName(PartialSearch);
+    }
 
 }

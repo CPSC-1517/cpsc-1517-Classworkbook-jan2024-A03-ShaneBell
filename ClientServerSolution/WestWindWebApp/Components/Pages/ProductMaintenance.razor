@@ -1,0 +1,90 @@
+﻿@page "/ProductMaintenance/{ProductID:int}"
+<h3>Product Maintenance</h3>
+ 
+@using WestWindSystem.BLL;
+@using WestWindSystem.DAL;
+@using WestWindSystem.Entities;
+ 
+
+@* TODO:
+Load all the values for the product into text boxes so they can be edited. 
+*@
+<div class="row bm-3">
+    <div class="col-3">
+        <label class="form-label" for="productid">ID</label>
+        <input class="form-control" type="text" id="productid" @bind="@Product.ProductId" readonly/>
+    </div>
+
+
+    <div class="col-6">
+        <label class="form-label" for="name">Name</label>
+        <input class="form-control" type="text" id="name" @bind="@Product.ProductName" />
+    </div>
+</div>
+
+<div class="row bm-3">
+    <div class="col-3">
+        <label class="form-label" for="qytperunit">Quantity Per Unit</label>
+        <input class="form-control" type="text" id="qytperunit" @bind="@Product.QuantityPerUnit" />
+    </div>
+
+
+    <div class="col-6">
+        <label class="form-label" for="minorderqty">Minimum Order Quantity</label>
+        <input class="form-control" type="text" id="minorderqty" @bind="@Product.MinimumOrderQuantity" />
+    </div>
+</div>
+
+
+<div class="row bm-3">
+    <div class="col-3">
+        <label class="form-label" for="unitprice">Unit Price</label>
+        <input class="form-control" type="text" id="unitprice" @bind="@Product.UnitPrice" />
+    </div>
+
+    <div class="col-6">
+        <label class="form-label" for="unitsonorder">Units On Order</label>
+        <input class="form-control" type="text" id="unitsonorder" @bind="@Product.UnitsOnOrder" />
+    </div>
+</div>
+
+<div class="row bm-3">
+    <div class="col-3">
+        <label class="form-label" for="category">Category</label>
+        <input class="form-control" type="text" id="category" @bind="@Product.CategoryId" />
+    </div>
+
+    <div class="col-6">
+        <label class="form-label" for="supplier">Supplier</label>
+        <input class="form-control" type="text" id="supplier" @bind="@Product.SupplierId"/>
+    </div>
+</div>
+
+
+@* TODO:
+Change the Category and Supplier text boxes to DDL's containing all the categories and suppliers.
+Ensure when a product is looked up, the DDL's are showing the correct row for that product
+*@
+
+
+
+ 
+@code {
+ 
+	[Parameter]
+	public int ProductID { get; set; }
+ 
+ 
+	//when the page is opened display the ProductName and unitprice on the screen
+ 
+	[Inject]
+	ProductServices ProductServices { get; set; }
+ 
+	Product Product { get; set; }
+ 
+	protected override void OnInitialized()
+	{
+		Product = ProductServices.LookProductByID(ProductID);
+		base.OnInitialized();
+	}
+}

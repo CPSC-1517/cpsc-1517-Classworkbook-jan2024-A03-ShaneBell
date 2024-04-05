@@ -28,5 +28,16 @@ namespace WestWindSystem.BLL
         {
             return _context.Products.Where(P => P.ProductId == productID).FirstOrDefault();
         }
+
+        public List<Product> GetProductsByPartialName(string partialName)
+        {
+        partialName = partialName.ToLower();
+            return _context.Products.Where(P => P.ProductName.ToLower().Contains(partialName))
+              .Include(P => P.Supplier)
+              .ToList();
+
+        }
+
+
     }
 }
