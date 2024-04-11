@@ -1,18 +1,39 @@
-﻿@page "/ProductMaintenance/{ProductID:int}"
-<h3>Product Maintenance</h3>
- 
+﻿@page "/ProductMaintenance/{ProductID:int?}"
+@* TODO;
+Have a heading of 'Edit Product' OR 'Add Product' as appropriatte
+*@
+
 @using WestWindSystem.BLL;
 @using WestWindSystem.DAL;
 @using WestWindSystem.Entities;
- 
+
+@if (ProductID != 0)
+{
+    <h3>Edit Product</h3>
+}
+else
+{
+    <h3>Add Product</h3>
+}
+
+
+@if (!string.IsNullOrWhiteSpace(FeedbackMessage))
+{
+    <div class="alert alert-info">
+        @FeedbackMessage
+    </div>
+}
+
+
 
 @* TODO:
-Load all the values for the product into text boxes so they can be edited. 
+Load all the values for the product into text boxes so they can be edited.
+
 *@
 <div class="row bm-3">
     <div class="col-3">
         <label class="form-label" for="productid">ID</label>
-        <input class="form-control" type="text" id="productid" @bind="@Product.ProductId" readonly/>
+        <input class="form-control" type="text" id="productid" @bind="@Product.ProductId" readonly />
     </div>
 
 
@@ -48,43 +69,82 @@ Load all the values for the product into text boxes so they can be edited.
     </div>
 </div>
 
-<div class="row bm-3">
-    <div class="col-3">
-        <label class="form-label" for="category">Category</label>
-        <input class="form-control" type="text" id="category" @bind="@Product.CategoryId" />
-    </div>
+<div class="mb-3">
+    <select class="form-select" id="category" style="width:300px" @bind="@Product.CategoryId">
+        <option value=0> Please choose a category</option>
+        @foreach (Category aCategory in CategoryServices.GetAllCategories())
+        {
+            <option value="@aCategory.CategoryId"> @aCategory.CategoryName </option>
+        }
+    </select>
+</div>
 
-    <div class="col-6">
-        <label class="form-label" for="supplier">Supplier</label>
-        <input class="form-control" type="text" id="supplier" @bind="@Product.SupplierId"/>
-    </div>
+<div class="mb-3">
+    <select class="form-select" id="supplier" style="width:300px" @bind="@Product.SupplierId">
+        <option value=0> Please choose a Supplier</option>
+        @foreach (Supplier aSupplier in SupplierServices.GetAllSuppliers())
+        {
+            <option value="@aSupplier.SupplierId"> @aSupplier.CompanyName </option>
+        }
+    </select>
+</div>
+
+<div class="mt-3">
+    <button class="btn btn-primary" @onclick="UpdateProduct" >Update Product</button>
 </div>
 
 
-@* TODO:
+
+
+@*
 Change the Category and Supplier text boxes to DDL's containing all the categories and suppliers.
 Ensure when a product is looked up, the DDL's are showing the correct row for that product
 *@
 
-
-
- 
 @code {
- 
-	[Parameter]
-	public int ProductID { get; set; }
- 
- 
-	//when the page is opened display the ProductName and unitprice on the screen
- 
-	[Inject]
-	ProductServices ProductServices { get; set; }
- 
-	Product Product { get; set; }
- 
-	protected override void OnInitialized()
-	{
-		Product = ProductServices.LookProductByID(ProductID);
-		base.OnInitialized();
-	}
+
+    [Parameter]
+    public int ProductID { get; set; }
+
+    //when the page is opened display the ProductName and unitprice on the screen
+
+    [Inject]
+    ProductServices ProductServices { get; set; }
+
+    [Inject]
+    CategoryServices CategoryServices { get; set; }
+
+    [Inject]
+    SupplierServices SupplierServices { get; set; }
+
+
+    Product Product { get; set; } = new();
+    private string? FeedbackMessage { get; set; }
+    private Dictionary<string, string> Errors { get; set; } = new();
+
+    public void UpdateProduct()
+    {
+        try
+        {
+            ProductServices.UpdateProduct(Product);
+            FeedbackMessage = "Product Successfully updated!";
+        }
+        catch(Exception ex)
+        {
+            //Add to dictionary
+            Errors.Add("product-add", ex.Message);
+        }
+    }
+
+
+    protected override void OnInitialized()
+    {
+        if (ProductID != 0)
+        {
+            Product = ProductServices.LookProductByID(ProductID);
+        }
+        base.OnInitialized();
+    }
+
+   
 }
