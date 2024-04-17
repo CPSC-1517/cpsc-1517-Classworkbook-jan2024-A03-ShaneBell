@@ -45,10 +45,38 @@ namespace WestWindSystem.BLL
                 throw new ArgumentNullException("Product argument cannot be null");
             }
             _context.Products.Update(product);
-            _context.SaveChanges();       
-        
+            _context.SaveChanges();         
         }
 
+        public void AddProduct(Product product)
+        {
+            if (product == null)
+            {
+                throw new ArgumentNullException("Product argument cannot be null");
+            }
+            _context.Products.Add(product);
+            _context.SaveChanges();
+        }
+
+        public void DeleteProduct(Product product)
+        {
+            if (product == null)
+            {
+                throw new ArgumentNullException("Product argument cannot be null");
+            }
+            _context.Products.Remove(product);
+            _context.SaveChanges();
+        }
+
+        public void DiscontinueProduct(Product product)
+        {
+            if (product == null)
+            {
+                throw new ArgumentNullException("Product argument cannot be null");
+            }
+            product.Discontinued = true;
+            UpdateProduct(product);
+        }
 
     }
 }
